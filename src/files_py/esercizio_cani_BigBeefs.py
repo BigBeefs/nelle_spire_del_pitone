@@ -18,7 +18,7 @@ def ask_eta():
      y=y-1                                                      
     else:
      #print("Le due liste sono lunghe uguali")
-     return eta_cani
+     return 
 
 
 def ask_name():
@@ -30,21 +30,21 @@ def ask_name():
      y=y+1                                                      
     else:
      #print("Le due liste sono lunghe uguali")
-     return nomi_cani
+     return 
 
 
 if y>0:
   ask_eta()
-  print ("Il cane", nomi_cani[0], "ha",str(eta_cani[0]), "anni",'\n' "Il cane", nomi_cani[1], "ha",str(eta_cani[1]), "anni,""\n"
-        "Il cane", nomi_cani[2], "ha",str(eta_cani[2]), "anni","\n" "Il cane", nomi_cani[3], "ha",str(eta_cani[3]),"anni.",
+  print ("Il cane", nomi_cani[0], "ha",str(eta_cani[0]), "anni.",'\n' "Il cane", nomi_cani[1], "ha",str(eta_cani[1]), "anni.""\n"
+        "Il cane", nomi_cani[2], "ha",str(eta_cani[2]), "anni.","\n" "Il cane", nomi_cani[3], "ha",str(eta_cani[3]),"anni.",
         "\n" "Il cane", nomi_cani[4], "ha",str(eta_cani[4]),"anni.")
-else:
+elif y<0:
   ask_name() 
-  print ("Il cane", nomi_cani[0], "ha",str(eta_cani[0]), "anni",'\n' "Il cane", nomi_cani[1], "ha",str(eta_cani[1]), "anni,""\n"
-        "Il cane", nomi_cani[2], "ha",str(eta_cani[2]), "anni","\n" "Il cane", nomi_cani[3], "ha",str(eta_cani[3]),"anni.",
+  print ("Il cane", nomi_cani[0], "ha",str(eta_cani[0]), "anni.",'\n' "Il cane", nomi_cani[1], "ha",str(eta_cani[1]), "anni.""\n"
+        "Il cane", nomi_cani[2], "ha",str(eta_cani[2]), "anni.","\n" "Il cane", nomi_cani[3], "ha",str(eta_cani[3]),"anni.",
         "\n" "Il cane", nomi_cani[4], "ha",str(eta_cani[4]),"anni.")  
 
-if y == 0:
-    print ("Il cane", nomi_cani[0], "ha",str(eta_cani[0]), "anni",'\n' "Il cane", nomi_cani[1], "ha",str(eta_cani[1]), "anni,""\n"
-    "Il cane", nomi_cani[2], "ha",str(eta_cani[2]), "anni","\n" "Il cane", nomi_cani[3], "ha",str(eta_cani[3]),"anni.",
+elif y == 0:
+    print ("Il cane", nomi_cani[0], "ha",str(eta_cani[0]), "anni.",'\n' "Il cane", nomi_cani[1], "ha",str(eta_cani[1]), "anni.""\n"
+    "Il cane", nomi_cani[2], "ha",str(eta_cani[2]), "anni.","\n" "Il cane", nomi_cani[3], "ha",str(eta_cani[3]),"anni.",
         "\n" "Il cane", nomi_cani[4], "ha",str(eta_cani[4]),"anni.")  
